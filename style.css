@@ -1,5 +1,5 @@
 .titre {
-  font-size: 45px;
+  font-size: 48px;
   font-family: "Bodoni Moda", serif;
   font-weight: 800;
   font-style: normal;
@@ -222,7 +222,15 @@ body
   width: 100%;
   padding: 20px 0;
   background-color: rgba(0, 0, 0, 0.8);
-  margin-top: 40px;
+}
+
+.footer-title {
+  font-family: "Bodoni Moda", serif;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
 }
 
 .footer-section {
@@ -341,4 +349,68 @@ body
   justify-content: center;
   background-size: cover;
   gap: 60px;
+}
+
+/* Styles pour le tableau de crédits et sources */
+.table-container {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.credits-sources-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  table-layout: fixed; /* Pour avoir des colonnes de largeur égale */
+}
+
+.credits-sources-table th, 
+.credits-sources-table td {
+  width: 50%; /* Chaque colonne prend exactement 50% de la largeur du tableau */
+}
+
+.credits-sources-table th {
+  font-family: "Bodoni Moda", serif;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.credits-sources-table td {
+  padding: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.credits-sources-table p {
+  margin: 8px 0;
+}
+
+/* Style pour les liens sources */
+.source-link {
+  color: #a2f1ee;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.source-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.image2 {
+  object-fit: cover;
+  object-position: 20% 50%; /* Affiche la partie gauche de l'image */
+  width: 260px;
+  height: 385px;
+}
+
+.image3 {
+  object-fit: cover;
+  object-position: 20% 50%; /* Affiche la partie gauche de l'image */
+  width: 260px;
+  height: 385px;
 }

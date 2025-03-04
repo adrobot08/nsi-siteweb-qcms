@@ -152,3 +152,8 @@ li {
 img {
   border-radius: 4px;
 }
+
+a {
+  color: #0d83e5;
+  text-decoration: none;
+}
