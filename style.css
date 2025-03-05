@@ -414,3 +414,13 @@ body
   width: 260px;
   height: 385px;
 }
+
+
+img {
+    filter: grayscale(100%);
+    transition: filter 0.9s ease-in-out;
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
