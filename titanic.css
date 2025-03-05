@@ -153,3 +153,29 @@ tr:hover {
 {
   color:white
 }
+
+/* Styles pour les tableaux du Titanic */
+.titanic-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  color: #333;
+  border: 1px solid #464646;
+}
+
+.titanic-table th,
+.titanic-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #464646;
+  color: white;
+}
+
+.titanic-table th {
+  font-weight: bold;
+}
+
+.titanic-table .section-header h4 {
+  color: #b8860b;
+  font-size: 20px;
+}
